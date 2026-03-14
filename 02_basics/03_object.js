@@ -3,36 +3,32 @@
 
 // object literals
 
-const mySym = Symbol("key1")
+const Sym = Symbol("BABA YAGA!")
 
 
-const JsUser = {
-    name: "Hitesh",
-    "full name": "Hitesh Choudhary",
-    [mySym]: "mykey1",
-    age: 18,
-    location: "Jaipur",
-    email: "hitesh@google.com",
-    isLoggedIn: false,
-    lastLoginDays: ["Monday", "Saturday"]
+const SupariKillers = {
+  name : "John Wick",
+  id : 45,
+  skills : ["Judo", "Guns Mastery", "Jiu Jitsu"],
+  Dialogue: "Yeah"
 }
 
-// console.log(JsUser.email)
-// console.log(JsUser["email"])
-// console.log(JsUser["full name"])
-// console.log(JsUser[mySym])
+// console.log(SupariKillers.name)
+// console.log(SupariKillers[name])
+ console.log(SupariKillers.skills)
+// console.log(JsUser[Sym])
 
-JsUser.email = "hitesh@chatgpt.com"
-// Object.freeze(JsUser)
-JsUser.email = "hitesh@microsoft.com"
-// console.log(JsUser);
+// SupariKillers.id = 5;
+//  Object.freeze(SupariKillers)
+// SupariKillers.Dialogue = "Yeah i am thinking i am back!!!"
+//  console.log(SupariKillers);
 
-JsUser.greeting = function(){
-    console.log("Hello JS user");
+SupariKillers.greeting = function(){
+    console.log("Hello Mate");
 }
-JsUser.greetingTwo = function(){
-    console.log(`Hello JS user, ${this.name}`);
+SupariKillers.greetingTwo = function(){
+    console.log(`Hello My Mate, ${this.name}`);
 }
 
-console.log(JsUser.greeting());
-console.log(JsUser.greetingTwo());
+console.log(SupariKillers.greeting());
+console.log(SupariKillers.greetingTwo());
