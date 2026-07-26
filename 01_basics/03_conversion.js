@@ -5,6 +5,7 @@ let result2 = "5" - 2;
 console.log(result2); // 3 — number ban gaya!
 
 let result3 = "5"*"3"
+console.log(result3)
 console.log(typeof result3)
 //Why? + concatenates as string, other operators take the value of as number!
 
@@ -60,11 +61,11 @@ console.log(+""); //0
 //let num1, num2, num3
 //num1 = num2 = num3 = 2 + 2
 
-// let Score =400;
-// Score++;
-// console.log(Score); //401
-// ++Score
-// console.log(Score); //401
+ let Score =400;
+ Score++;
+ console.log(Score); //401
+ ++Score
+ console.log(Score); //402
 
 let x = 3;
 const y = x++;

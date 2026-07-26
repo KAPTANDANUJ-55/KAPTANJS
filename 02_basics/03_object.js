@@ -10,13 +10,14 @@ const SupariKillers = {
   name : "John Wick",
   id : 45,
   skills : ["Judo", "Guns Mastery", "Jiu Jitsu"],
-  Dialogue: "Yeah"
+  Dialogue: "Yeah",
+  [Sym] : "BabaYaga" 
 }
 
 // console.log(SupariKillers.name)
-// console.log(SupariKillers[name])
- console.log(SupariKillers.skills)
-// console.log(JsUser[Sym])
+ //console.log(SupariKillers["name"])
+ //console.log(SupariKillers.skills)
+ console.log(SupariKillers[Sym])
 
 // SupariKillers.id = 5;
 //  Object.freeze(SupariKillers)

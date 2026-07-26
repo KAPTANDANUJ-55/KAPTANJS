@@ -1,7 +1,7 @@
 const spi = 8.6;
 let faah = "aayein";
 var x = 4;
-
+let wwe; //undefined output
 Attendance = "45%";
 
 // spi = 9; // It is sin boi!;
